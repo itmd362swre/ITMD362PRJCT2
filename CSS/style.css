@@ -2,7 +2,8 @@
 body {
     font-family: '', sans-serif;
 	color:black;
-   
+	background color: linear-gradient(blue,white);
+	
 }
 
 
@@ -25,21 +26,30 @@ header{
 	float:right;
 }
 ul {
-  list-style-type: none;
-  margin: 100%;
+  margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333;
+  background-color:lightblue;
 }
-li{
-	float:center;
-	display:inline-block;
-	color:white;
-	text-align:center;
+
+li {
+  float: left;
 }
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 li a:hover{
-	background-color:light-gray;
+  background-color: red;
 }
+
+
+
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
