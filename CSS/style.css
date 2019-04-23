@@ -11,9 +11,10 @@ h1 {
 }
 
 header{
-	border-style; solid;
-	border-width:100%;
-	margin: 10px;
+	margin:100px;
+	border:1em;
+	background-color:blue;
+	
 	
 }
 #logo{
@@ -25,13 +26,19 @@ header{
 }
 ul {
   list-style-type: none;
-  margin: 0;
+  margin: 100%;
   padding: 0;
   overflow: hidden;
   background-color: #333;
 }
 li{
 	float:center;
+	display:inline-block;
+	color:white;
+	text-align:center;
+}
+li a:hover{
+	background-color:light-gray;
 }
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
