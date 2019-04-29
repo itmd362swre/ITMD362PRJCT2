@@ -8,9 +8,10 @@ h1 {
 }
 
 header{
-	margin:100px;
-	border:1em;
-	background-color:blue;
+	background-color: lightblue;
+	margin:10px 20px;
+	border:50px;
+	padding:50px;
 }
 
 /* ===== MODULAR STYLES ===== */
