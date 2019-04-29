@@ -1,9 +1,6 @@
 
 body {
-    font-family: '', sans-serif;
-	color:black;
-	background color: linear-gradient(blue,white);
-	
+     background-image: linear-gradient(red, #f06d06);
 }
 
 
@@ -31,15 +28,13 @@ header{
 	margin: 0 0em 0em 0em;
 	padding: 0;
 	background-color: #f2f2f2;
-	border-bottom: 1px solid #ccc; 
-text-align:center;	
+	border-bottom: 1px solid #ccc;  
 }
 #nav ul {
 	list-style: none;
 	width: 800px;
 	margin: 0 auto;
 	padding: 0; 
-	position:relative;
 }
 #nav li {
 	float: left; 
