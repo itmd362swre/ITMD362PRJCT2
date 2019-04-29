@@ -1,6 +1,5 @@
 
 body {
-     background-image: linear-gradient(red, #f06d06);
 }
 
 
@@ -9,20 +8,10 @@ h1 {
 }
 
 header{
-	margin:0;
-	border:0em;
+	margin:100px;
+	border:1em;
 	background-color:blue;
 }
-#logo{
-	width: ;
-	height: 10z;
-	float:left;
-}
-#logo-name{
-	float:right;
-	font-size: 70px;
-}
-
 
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
