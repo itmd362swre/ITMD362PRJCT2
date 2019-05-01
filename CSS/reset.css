@@ -194,7 +194,6 @@ img, audio, video {
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 0; /* 26px / ~ 120% */
   text-rendering: optimizeLegibility;
 }
 
