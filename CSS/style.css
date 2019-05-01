@@ -1,37 +1,5 @@
 
-body {
-}
 
-
-h1 {
-    text-align: center;
-}
-
-header{
-	background-color: lightblue;
-	margin:10px 10px;
-	border:10px;
-	padding:10px;
-}
-
-#top-header{
-	background-color: lightblue;
-	padding-top:5px;
-}
-
-.logo-img{
-margin-top:0.1em;
-margin-right: 50px;
-}
-.logo-name{
-	float:right;
-}
-#nav{
-	margin-top: 50px;
-	border-top: 6px solid red;
-	background-color: lightgrey;
-}
-}
 
 /* ===== MODULAR STYLES ===== */
 /* === media queiries === */
