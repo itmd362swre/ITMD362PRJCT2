@@ -1,9 +1,4 @@
-html {
-  font-size: 1.375em; /* 22px */
-  line-height: 1.182em; /* 26px / ~ 120% */
-  padding: 0;
-  text-rendering: optimizeLegibility;
-}
+
 body {
 }
 
@@ -17,6 +12,18 @@ header{
 	margin:10px 20px;
 	border:50px;
 	padding:50px;
+}
+
+#top-header{
+	background-color: lightblue;
+	padding:0 auto 0 auto;
+}
+
+#nav{
+	margin-top: 50px;
+	border-top: 6px solid red;
+	background-color: lightgrey;
+}
 }
 
 /* ===== MODULAR STYLES ===== */
