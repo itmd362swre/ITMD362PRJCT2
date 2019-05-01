@@ -47,6 +47,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
+  border-top:solid 10px blue;
 }
 
 .sticky + .content {
@@ -65,8 +66,6 @@ body {
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (min-width: 658px) {
 
-   
-        
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
