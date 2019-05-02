@@ -147,8 +147,8 @@ body {
 }
 
 /*class for events and about made equal width*/
-#eventsclss a{
-	width:23.5%;
+#eventsdown a{
+	width:25%;
 }
 #aboutdown a{
 	width:17.4%;
