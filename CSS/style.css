@@ -11,14 +11,6 @@ body {
   text-align: center;
 }
 
-.header input[type=text] {
-  float: right;
-  padding: 6px;
-  border: none;
-  margin-top: 8px;
-  margin-right: 16px;
-  font-size: 17px;
-}
 /*
 #navbar {
 	width:100%;
