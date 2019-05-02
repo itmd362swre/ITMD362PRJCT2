@@ -16,7 +16,13 @@ body {
 	float: left;
 }
 .header img{
-	border-right: 1px solid black;
+	border-right: solid black;
+	border-width: 3px;
+}
+.header h1{
+	padding-top:1.5em;
+	padding-left:.3em;
+	font-size:50px;
 }
 /*
 #navbar {
@@ -142,7 +148,7 @@ body {
 
 /*class for events and about made equal width*/
 #eventsclss a{
-	width:22.4%;
+	width:23.5%;
 }
 #aboutdown a{
 	width:17.4%;
