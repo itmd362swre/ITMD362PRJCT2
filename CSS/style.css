@@ -238,22 +238,22 @@ input[type=submit]:hover {
 /* === media queiries === */
 /* 400px Break Point 1: Extra Small Devices, Phones */
 @media screen and (max-width: 354px) { 
-.column, input[type=submit] {
+
+        
+}
+/* 658px Break Point 2: Small Devices, Tablets, PCs */
+@media screen and (max-width: 658px) {
+	.column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
 
-   
-        
-}
-/* 658px Break Point 2: Small Devices, Tablets, PCs */
-@media screen and (min-width: 658px) {
-	
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
 @media screen and (min-width: 996px) {
 
 
+   
 
 /* ===== STATE STYLES ======= */
