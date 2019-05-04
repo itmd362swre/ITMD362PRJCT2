@@ -25,6 +25,7 @@ body {
 	font-size:50px;
 }
 
+/*===========Navbar STYLE========*/
 
 /* Navbar container */
 #navbar {
@@ -43,6 +44,9 @@ body {
   text-decoration: none;
   width:25%;/*equal widths for tabs*/
 }
+/*===========Navbar STYLE========*/
+
+/*===========DRPDWN STYLE========*/
 
 /* The dropdown container */
 .dropdown {
@@ -108,7 +112,11 @@ body {
 #aboutdown a{
 	width:17.4%;
 }
+/*===========DRPDWN STYLE END========*/
 
+
+
+/*======STICKY CONTENT===================*/
 .content {
   padding: 16px;
 }
@@ -123,8 +131,20 @@ body {
 .sticky + .content {
   padding-top: 60px;
 }
+/*======END STICKY CONTENT CSS===================*/
 
-/*==========HERO IMAGEFOR PAGES========*/
+
+
+/*==========BANNER-----------*/
+.banner{
+	width: 100%;
+	display:block;
+}
+.banner > .banner-image{
+	width:100%;
+	display:block;
+}
+/*==========END BANNER STYLE-----------*/
 
 
 /*footer*/
@@ -137,10 +157,11 @@ footer{
 	background-color: #efefef;
 	text-align: center;
 }
+/*==========END BANNER CSS-----------*/
 
 
 
-/*==========CSS-=========*/
+/*==========CONTACT CSS-=========*/
 
 * {
   box-sizing: border-box;
@@ -189,41 +210,10 @@ input[type=submit]:hover {
   display: table;
   clear: both;
 }
+/*========== END CONTACT CSS-=========*/
 
 
-
-/*==========BANNER-----------*/
-.banner{
-	width: 100%;
-	display:block;
-}
-.banner > .banner-image{
-	width:100%;
-	display:block;
-}
-
-/*==========FOOTER STYLE-----------*/
-
-footer{
-  background-color: #2F3648;
-  color: white;
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
-}
-
-footer p {
-  padding-bottom: 10px;
-}
-
-
-
-
-
+/*=========ACCORDIAN CSSS===========*/
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: #eee;
@@ -249,8 +239,31 @@ footer p {
   display: none;
   overflow: hidden;
 }
+/*===========END ACCORDIAN CSS================*/
 
 
+
+/*==========FOOTER STYLE-----------*/
+
+footer{
+  background-color: #2F3648;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+
+
+/*==========END FOOTER STYLE-----------*/
+ 
 
 
 
