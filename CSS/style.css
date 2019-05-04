@@ -200,7 +200,7 @@ input[type=submit]:hover {
 .banner > .banner-image{
 	width:100%;
 	display:block;
-	height: 50%;}
+}
 footer{
   background-color: #2F3648;
   color: white;
