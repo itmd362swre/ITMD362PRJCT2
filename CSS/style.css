@@ -3,7 +3,6 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
-height:100%;
 }
 
 .header {
@@ -208,7 +207,7 @@ input[type=submit]:hover {
 footer{
   background-color: #2F3648;
   color: white;
-  position: relative;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
