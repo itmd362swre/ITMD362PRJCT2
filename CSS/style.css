@@ -39,7 +39,7 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
-  border-bottom: 10px solid lightblue;
+  border-bottom: 5px solid lightblue;
 }
 
 /* Links inside the navbar */
