@@ -165,15 +165,11 @@ body {
  
 }
 #maincontent h3,h4,p {
-	font-size: 25px;
 	font-weight: 20px;
 	text-align: center;
 }
 
-#journalimg{
-	text-align: center;
-}
-}
+
 
 .congresslist{
 	text-align: center;
