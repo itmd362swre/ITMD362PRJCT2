@@ -3,6 +3,7 @@ body {
   margin: 0;
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
 }
 
 .header {
@@ -148,7 +149,7 @@ body {
 
 
 /*footer*/
-.footer{
+footer{
 	position: relative;
 	right: 0;
 	bottom: 0;
