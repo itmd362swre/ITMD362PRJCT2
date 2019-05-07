@@ -9,7 +9,7 @@ body {
 	background-color: #f2f8f9;
 }
 
-
+/*=====HEADER STYLE=====*/
 .header {
   background-color: #0BABF8;
   padding: 10px 30px 5px 10px;
@@ -29,6 +29,27 @@ body {
 	padding-left:.3em;
 	font-size:50px;
 }
+/*=====END HEADER STYLE=====*/
+
+/*===== Secction STYLE=====*/
+section {
+  
+}
+
+p {
+  
+  
+}
+h1 {
+ 
+}
+h2 {
+ 
+}
+h3 {
+ 
+}
+
 
 /*===========Navbar STYLE========*/
 
@@ -153,16 +174,24 @@ body {
 
 
 
-/*==========END BANNER CSS-----------*/
-
-
 
 
 /*===========main content style========*/
 
 section{
-	padding
+	margin:10px;
 
+}
+
+h1{
+	text-align: center;
+	border: 2px solid blue;
+	font-weight: 12px;
+}
+
+p{
+	padding-top: 10px;
+	padding-bottom:10px;
 }
 
 
@@ -222,10 +251,9 @@ input[type=submit]:hover {
   width: 100%;
   text-align: center;
   border: none;
+	border-top: 5px solid #F5F4F4;
   outline: none;
-	font-size: 20px;
-  background-image: linear-gradient(red, yellow);
-
+	font-size: 19px;
 
 }
 
