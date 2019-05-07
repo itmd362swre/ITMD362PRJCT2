@@ -6,7 +6,7 @@ body {
   font-size: 28px;
   font-family: Arial, Helvetica, sans-serif;
   height: 100%;
-	background-color: #f2f8f9;
+	background-color: #FCFCFC;
 }
 
 /*=====HEADER STYLE=====*/
@@ -30,25 +30,6 @@ body {
 	font-size:50px;
 }
 /*=====END HEADER STYLE=====*/
-
-/*===== Secction STYLE=====*/
-section {
-  
-}
-
-p {
-  
-  
-}
-h1 {
- 
-}
-h2 {
- 
-}
-h3 {
- 
-}
 
 
 /*===========Navbar STYLE========*/
@@ -146,14 +127,12 @@ h3 {
 .content {
   padding: 16px;
 }
-
 .sticky {
   position: fixed;
   top: 0;
   width: 100%;
   border-top:solid 10px blue;
 }
-
 .sticky + .content {
   padding-top: 60px;
 }
@@ -172,28 +151,32 @@ h3 {
 }
 /*==========END BANNER STYLE-----------*/
 
+/*===== Section STYLE=====*/
 
-
-
-
-/*===========main content style========*/
-
-section{
-	margin:10px;
-
+#maincontent {
+	margin: 2em 2em; 
+	font-size: 20px;
+	line-height:1.5em;
 }
-
-h1{
+#maincontent h2 {
+	font-size: 25px;
+	font-weight: 20px;
 	text-align: center;
-	border: 2px solid blue;
-	font-weight: 12px;
+ 
+}
+#maincontent h3,h4,p {
+	font-size: 25px;
+	font-weight: 20px;
+	text-align: center;
 }
 
-p{
-	padding-top: 10px;
-	padding-bottom:10px;
+.congresslist{
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom:1em;
 }
 
+/*===== End Section STYLE=====*/
 
 /*==========CONTACT CSS-=========*/
 
@@ -222,7 +205,6 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
-
 
 /* Create two columns that float next to eachother */
 .column {
@@ -259,13 +241,13 @@ input[type=submit]:hover {
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
 .active, .accordion:hover {
-  background-color: #ccc;
+  background-color: #E4E3E3;
 }
 
 /* Style the accordion panel. Note: hidden by default */
 .panel {
-  padding: 0 18px;
-  background-color: white;
+  padding: 15px 18px;
+  background-color: #F5F4F4;
   display: none;
   overflow: hidden;
 	font-size: 18px;
