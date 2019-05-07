@@ -11,23 +11,17 @@ body {
 
 /*=====HEADER STYLE=====*/
 .header {
-  background-color: #0BABF8;
-  padding: 10px 30px 5px 10px;
-  padding-bottom:7em;
-  text-align: center;
+  background-color: #FCFCFC;
+  padding: .5em 1em 5em 1em;
+  padding-bottom:
+ 
 }
 
-.header img, h1 {
+.header img {
 	float: left;
 }
 .header img{
-	border-right: solid black;
 	border-width: 3px;
-}
-.header h1{
-	padding-top:1.5em;
-	padding-left:.3em;
-	font-size:50px;
 }
 /*=====END HEADER STYLE=====*/
 
