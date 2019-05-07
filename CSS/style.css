@@ -39,6 +39,7 @@ body {
   overflow: hidden;
   background-color: #333;
   font-family: Arial;
+  border-bottom: 10px solid lightblue;
 }
 
 /* Links inside the navbar */
@@ -131,7 +132,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  border-top:solid 10px blue;
+  border-top:solid 15px lightblue;
 }
 .sticky + .content {
   padding-top: 60px;
@@ -170,8 +171,6 @@ body {
 	font-weight: 20px;
 	text-align: center;
 }
-
-
 
 .congresslist{
 	text-align: center;
