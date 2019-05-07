@@ -221,7 +221,7 @@ input[type=submit]:hover {
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  text-align: left;
+  text-align: center;
   border: none;
   outline: none;
   transition: 0.4s;
@@ -245,9 +245,25 @@ input[type=submit]:hover {
 
 /*==========FOOTER STYLE-----------*/
 
-
 footer{
-	position: absolute;
+  background-color: #2F3648;
+  color: white;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+footer p {
+  padding-bottom: 10px;
+}
+
+/*footer
+footer{
+	position: relative;
 	right: 0;
 	bottom: 0;
 	left: 0;
