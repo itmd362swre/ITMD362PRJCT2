@@ -162,6 +162,8 @@ body {
 	font-size: 25px;
 	font-weight: 20px;
 	text-align: center;
+	margin-top: .5em;
+	margin-bottom:.5em;
  
 }
 #maincontent h3,h4,p {
