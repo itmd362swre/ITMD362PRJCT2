@@ -1,10 +1,12 @@
 html{
 	height:100%;
+	font-family:'Arimo', sans-serif;
+
 }
 body {
   margin: 0;
   font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
+font-family: 'Noto Sans', sans-serif;
   height: 100%;
 	background-color: #FCFCFC;
 }
@@ -154,6 +156,8 @@ body {
 	font-size: 20px;
 	line-height:1.5em;
 	min-height:100%;
+	font-family: 'Raleway', sans-serif;
+
 }
 #maincontent h2 {
 	font-size: 25px;
@@ -298,18 +302,7 @@ footer p {
     padding-top: 10px;
 
 }
-footer .box {
-  float: left;
-  width: 25%;
-  padding: 50px;
-  background-color:#079AE1;  
-}
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
-}
 */
 
 
