@@ -175,6 +175,17 @@ body {
 	padding-bottom:1em;
 }
 
+.box {
+  float: left;
+  width: 25%;
+  padding: 50px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 /*===== End Section STYLE=====*/
 
