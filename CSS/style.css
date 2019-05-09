@@ -100,7 +100,9 @@ body {
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+	border-bottom:5px solid #60BCE8;
+
 }
 
 /* Show the dropdown menu on hover */
@@ -262,11 +264,13 @@ input[type=submit]:hover {
 /*==========FOOTER STYLE-----------*/
 
 footer{
-  background-color: #2F3648;
+    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
   color: blue;
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 25%;
+  margin:auoto;
   text-align: center;
   padding-bottom: 20px;
   padding-top: 20px;
