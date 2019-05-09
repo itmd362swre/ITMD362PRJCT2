@@ -264,20 +264,20 @@ input[type=submit]:hover {
 /*==========FOOTER STYLE-----------*/
 
 footer{
-    background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
-  color: blue;
+  color: white;
+  background-color:#60BCE8;
   left: 0;
   bottom: 0;
   width: 100%;
-  height: 25%;
+  height: 3em;
   margin:auoto;
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 20px;
 }
 
 footer p {
   padding-bottom: 10px;
+    padding-top: 10px;
+
 }
 
 /*footer
