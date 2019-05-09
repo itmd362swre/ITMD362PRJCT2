@@ -179,7 +179,7 @@ body {
   float: left;
   width: 25%;
   padding: 50px;
-  background-color:#eeeeee; 
+  background-color:#eeeeee;  
 }
 
 .clearfix::after {
@@ -274,7 +274,10 @@ input[type=submit]:hover {
 /*===========END ACCORDIAN CSS================*/
 
 
+center{
+		  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
+}
 /*==========FOOTER STYLE-----------*/
 
 footer{
