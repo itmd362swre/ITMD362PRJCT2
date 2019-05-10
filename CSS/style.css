@@ -33,10 +33,11 @@ font-family: 'Noto Sans', sans-serif;
 /* Navbar container */
 #navbar {
   overflow: hidden;
-  font-family: Arial;
+  font-family:Arimo;
   border-bottom: 2px solid #999292;
   border-top:4px solid #F7F1F1;
   background: linear-gradient(to bottom, #eeeeee 0%,#cccccc 100%);
+	
 }
 
 /* Links inside the navbar */
@@ -259,6 +260,7 @@ input[type=submit]:hover {
 	border-top: 5px solid #F5F4F4;
   outline: none;
 	font-size: 19px;
+	font-family: Rubik;
 
 }
 
@@ -296,11 +298,11 @@ footer{
   margin:auoto;
   text-align: center;
   height:100px;
- 
-
 }
 
 footer p {
+		font-family: Noto Sans;
+
   padding-bottom: 10px;
     padding-top: 10px;
 
@@ -336,8 +338,7 @@ footer p {
 #contactimg{
 	border-bottom:2px solid gray;
 }
-/*==========CONTACT CSS-=========*/
-
+/*==========Nav CSS-=========*/
 
   .nav.responsive {position: relative;}
   .nav.responsive a {
@@ -370,9 +371,11 @@ footer p {
 }
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
-@media screen and (min-width: 996px) {
+@media screen and (max-width: 996px) {
 
+/*==========Nav CSS-=========*/
 
+ 
    
 
 /* ===== STATE STYLES ======= */
