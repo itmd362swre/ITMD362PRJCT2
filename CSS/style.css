@@ -302,7 +302,6 @@ footer{
 
 footer p {
 		font-family: Noto Sans;
-
   padding-bottom: 10px;
     padding-top: 10px;
 
@@ -335,24 +334,7 @@ footer p {
     width: 100%;
     margin-top: 0;
   }
-#contactimg{
-	border-bottom:2px solid gray;
-}
-/*==========Nav CSS-=========*/
 
-  .nav.responsive {position: relative;}
-  .nav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-	
-	#eventsdown a{
-	width:100%;
-}
-#aboutdown a{
-	width:100%;
-}
 }
 
 
@@ -368,7 +350,7 @@ footer p {
 
 /*==========CONTACT CSS-=========*/
 
-}
+
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
 @media screen and (max-width: 996px) {
