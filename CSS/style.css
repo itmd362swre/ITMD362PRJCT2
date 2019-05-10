@@ -15,7 +15,6 @@ font-family: 'Noto Sans', sans-serif;
 .header {
   background-color: #eeeeee;
   padding: .5em 1em 5em 1em;
-  padding-bottom:
  
 }
 
@@ -329,16 +328,74 @@ footer p {
 /* 658px Break Point 2: Small Devices, Tablets, PCs */
 @media screen and (max-width: 658px) {
 	
+	/*header img*/
+	.header  {
+		  padding: 1em 6em 3em 5em;
+	}
+	
+
 /*==========CONTACT CSS-=========*/
 	.column, input[type=submit] {
     width: 100%;
     margin-top: 0;
   }
+#contactimg{
+	border-bottom:2px solid gray;
+}
+/*==========Nav CSS-=========*/
+
+  .nav.responsive {position: relative;}
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+	
+	#eventsdown a{
+	width:100%;
+}
+#aboutdown a{
+	width:100%;
+}
+/*======================*/
+#maincontent {
+	margin: 1em 1em; 
+	font-size: 16px;
+	line-height:1.5em;
+	min-height:100%;
+}
+#maincontent h2 {
+	font-size: 20px;
+	font-weight: 20px;
+	text-align: center;
+	margin-top: .5em;
+	margin-bottom:.5em;
+	padding:0;
+}
+#maincontent h3,h4,p {
+	font-weight: 18px;
+	text-align: center;
+}
+
+/*BOARDBOXES*/
+.box {
+  float: none;
+  width: 100%;
+  padding: 50px;
+  background-color:#eeeeee;  
+	 float: none;
+   display: block;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 }
 
 
-/*==========CONTACT CSS-=========*/
 
 
 
@@ -348,9 +405,13 @@ footer p {
 
 /*==========CONTACT CSS-=========*/
 
+
+
 /*==========CONTACT CSS-=========*/
 
+/*==========CONTACT CSS-=========*/
 
+}
 
 /* 992px Break Point 3: Desktop Computers, Large screens */
 @media screen and (max-width: 996px) {
