@@ -387,11 +387,32 @@ footer p {
    display: block;
 }
 
-.clearfix::after {
-  content: "";
-  clear: both;
-  display: table;
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  border: none;
+	border-top: 5px solid #F5F4F4;
+  outline: none;
+	font-size: 17px;
+	font-family: Rubik;
+
 }
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 15px 18px;
+  background-color: #F5F4F4;
+  display: none;
+  overflow: hidden;
+	font-size: 15px;
+	text-align:center;
+	
+}
+
 
 }
 
